@@ -1,0 +1,14 @@
+Drogaria Pública - Distribuição de Medicamentos
+
+Para realizar a retirada de um medicamento, o paciente deve primeiro informar seu nº do Cartão da Drogaria e o RG, para
+que o atendente possa verificar se o mesmo se encontra cadastrado. Se o paciente não estiver cadastrado ou não for o
+titular da receita, o atendente deverá cadastrá-lo mediante a apresentação dos documentos necessários, sendo eles
+CPF, RG, Comprovante de Residência e Cartão do SUS.
+
+Caso o cliente esteja cadastrado, então este deverá fornecer a receita. Em seguida, o atendente realizará a busca pelo
+medicamento e caso ele esteja no banco de dados, deverá ser registrada do medicamento e deverá ser entregue ao paciente.
+
+Classe: Paciente
+	Fornecedor
+	Medicamento
+	Registros
